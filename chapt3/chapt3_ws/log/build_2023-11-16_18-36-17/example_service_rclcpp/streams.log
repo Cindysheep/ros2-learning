@@ -1,0 +1,13 @@
+[0.161s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[0.305s] [ 50%] Built target service_server_01
+[0.334s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[5.040s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In member function ‘[01m[Kvoid ServiceClient01::send_request(int, int)[m[K’:
+[5.041s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope; did you mean ‘[01m[Krequests[m[K’?
+[5.041s]    27 |     [01;31m[Krequest[m[K->a = a;
+[5.041s]       |     [01;31m[K^~~~~~~[m[K
+[5.041s]       |     [32m[Krequests[m[K
+[6.066s] gmake[2]: *** [CMakeFiles/service_client_01.dir/build.make:76: CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] Error 1
+[6.066s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_client_01.dir/all] Error 2
+[6.066s] gmake: *** [Makefile:146: all] Error 2
+[6.071s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4

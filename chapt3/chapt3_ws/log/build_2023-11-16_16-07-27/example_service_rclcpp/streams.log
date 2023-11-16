@@ -1,0 +1,27 @@
+[0.119s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.356s] [ 50%] Built target service_server_01
+[0.356s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[6.012s] [100%] [32m[1mLinking CXX executable service_client_01[0m
+[6.389s] [100%] Built target service_client_01
+[6.414s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[6.504s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[6.523s] -- Install configuration: ""
+[6.524s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[6.524s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[6.525s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[6.525s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[6.525s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[6.525s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[6.525s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[6.526s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[6.526s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[6.526s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[6.526s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[6.527s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[6.527s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[6.527s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[6.528s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[6.529s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[6.532s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[6.534s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[6.539s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp

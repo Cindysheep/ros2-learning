@@ -1,0 +1,8 @@
+[01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In member function ‘[01m[Kvoid ServiceClient01::send_request(int, int)[m[K’:
+[01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope; did you mean ‘[01m[Krequests[m[K’?
+   32 |     client_->async_send_request([01;31m[Krequest[m[K,std::bind(&ServiceClient01::result_callback_,this,std::placeholders::_1));
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Krequests[m[K
+gmake[2]: *** [CMakeFiles/service_client_01.dir/build.make:76: CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_client_01.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

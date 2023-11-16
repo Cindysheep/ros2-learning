@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.000324] (example_service_rclcpp) JobQueued: {'identifier': 'example_service_rclcpp', 'dependencies': OrderedDict()}
+[0.001138] (example_service_rclcpp) JobStarted: {'identifier': 'example_service_rclcpp'}
+[0.100360] (-) TimerEvent: {}
+[0.132987] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'cmake'}
+[0.134524] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'build'}
+[0.136584] (example_service_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp', '--', '-j4', '-l4'], 'cwd': '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.5.4/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/d2lros2'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1674'), ('SYSTEMD_EXEC_PID', '1866'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30504'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:36590'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/opencv4.5.4/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-virtual-machine:@/tmp/.ICE-unix/1821,unix/ros2-virtual-machine:/tmp/.ICE-unix/1821'), ('INVOCATION_ID', 'd458163c1ba140049143d93b4185c875'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ASV9D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b79330d0d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.206378] (-) TimerEvent: {}
+[0.241151] (example_service_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client_01\x1b[0m\n'}
+[0.286426] (example_service_rclcpp) StdoutLine: {'line': b'[ 50%] Built target service_server_01\n'}
+[0.296875] (example_service_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o\x1b[0m\n'}
+[0.307071] (-) TimerEvent: {}
+[0.407713] (-) TimerEvent: {}
+[0.508439] (-) TimerEvent: {}
+[0.609475] (-) TimerEvent: {}
+[0.710815] (-) TimerEvent: {}
+[0.811436] (-) TimerEvent: {}
+[0.911888] (-) TimerEvent: {}
+[1.015615] (-) TimerEvent: {}
+[1.116347] (-) TimerEvent: {}
+[1.217245] (-) TimerEvent: {}
+[1.318183] (-) TimerEvent: {}
+[1.419634] (-) TimerEvent: {}
+[1.520546] (-) TimerEvent: {}
+[1.621507] (-) TimerEvent: {}
+[1.722110] (-) TimerEvent: {}
+[1.823236] (-) TimerEvent: {}
+[1.923962] (-) TimerEvent: {}
+[2.024725] (-) TimerEvent: {}
+[2.126080] (-) TimerEvent: {}
+[2.227287] (-) TimerEvent: {}
+[2.328028] (-) TimerEvent: {}
+[2.428952] (-) TimerEvent: {}
+[2.530210] (-) TimerEvent: {}
+[2.630893] (-) TimerEvent: {}
+[2.731978] (-) TimerEvent: {}
+[2.832760] (-) TimerEvent: {}
+[2.934088] (-) TimerEvent: {}
+[3.035004] (-) TimerEvent: {}
+[3.135723] (-) TimerEvent: {}
+[3.237529] (-) TimerEvent: {}
+[3.338263] (-) TimerEvent: {}
+[3.440103] (-) TimerEvent: {}
+[3.540810] (-) TimerEvent: {}
+[3.642025] (-) TimerEvent: {}
+[3.743078] (-) TimerEvent: {}
+[3.844148] (-) TimerEvent: {}
+[3.944853] (-) TimerEvent: {}
+[4.046441] (-) TimerEvent: {}
+[4.147537] (-) TimerEvent: {}
+[4.248149] (-) TimerEvent: {}
+[4.348993] (-) TimerEvent: {}
+[4.449636] (-) TimerEvent: {}
+[4.551082] (-) TimerEvent: {}
+[4.651754] (-) TimerEvent: {}
+[4.752973] (-) TimerEvent: {}
+[4.856010] (-) TimerEvent: {}
+[4.957409] (-) TimerEvent: {}
+[4.995262] (example_service_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ServiceClient01::send_request(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.995771] (example_service_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:32:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krequests\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.995978] (example_service_rclcpp) StderrLine: {'line': b'   32 |     client_->async_send_request(\x1b[01;31m\x1b[Krequest\x1b[m\x1b[K,std::bind(&ServiceClient01::result_callback_,this,std::placeholders::_1));\n'}
+[4.996189] (example_service_rclcpp) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.996371] (example_service_rclcpp) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Krequests\x1b[m\x1b[K\n'}
+[5.057655] (-) TimerEvent: {}
+[5.158148] (-) TimerEvent: {}
+[5.261510] (-) TimerEvent: {}
+[5.362182] (-) TimerEvent: {}
+[5.463512] (-) TimerEvent: {}
+[5.564315] (-) TimerEvent: {}
+[5.665318] (-) TimerEvent: {}
+[5.766055] (-) TimerEvent: {}
+[5.866678] (-) TimerEvent: {}
+[5.967561] (-) TimerEvent: {}
+[6.068736] (-) TimerEvent: {}
+[6.089658] (example_service_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_client_01.dir/build.make:76: CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] Error 1\n'}
+[6.090811] (example_service_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_client_01.dir/all] Error 2\n'}
+[6.090980] (example_service_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.096755] (example_service_rclcpp) CommandEnded: {'returncode': 2}
+[6.176727] (-) TimerEvent: {}
+[6.283009] (-) TimerEvent: {}
+[6.293811] (example_service_rclcpp) JobEnded: {'identifier': 'example_service_rclcpp', 'rc': 2}
+[6.295640] (-) EventReactorShutdown: {}
