@@ -1,0 +1,301 @@
+[0.148s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapt3/chapt3_ws/example_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces
+[0.386s] -- The C compiler identification is GNU 11.4.0
+[0.530s] -- The CXX compiler identification is GNU 11.4.0
+[0.553s] -- Detecting C compiler ABI info
+[0.757s] -- Detecting C compiler ABI info - done
+[0.779s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.782s] -- Detecting C compile features
+[0.785s] -- Detecting C compile features - done
+[0.797s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.037s] -- Detecting CXX compile features
+[1.038s] -- Detecting CXX compile features - done
+[1.055s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.417s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.625s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.887s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.906s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.284s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.290s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.356s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.356s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.356s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.401s] -- Found PythonExtra: .so  
+[4.518s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.582s] -- Added test 'lint_cmake' to check CMake code style
+[4.587s] -- Added test 'xmllint' to check XML markup files
+[4.596s] -- Configuring done
+[4.705s] -- Generating done
+[4.711s] -- Build files have been written to: /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces
+[4.734s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapt3/chapt3_ws/example_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces
+[4.736s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces -- -j4 -l4
+[4.835s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.884s] [  2%] Built target ament_cmake_python_copy_example_ros2_interfaces
+[4.890s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.524s] running egg_info
+[5.525s] creating example_ros2_interfaces.egg-info
+[5.525s] writing example_ros2_interfaces.egg-info/PKG-INFO
+[5.525s] writing dependency_links to example_ros2_interfaces.egg-info/dependency_links.txt
+[5.525s] writing top-level names to example_ros2_interfaces.egg-info/top_level.txt
+[5.525s] writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[5.529s] reading manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[5.530s] writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[5.618s] [  4%] Built target ament_cmake_python_build_example_ros2_interfaces_egg
+[5.976s] [  4%] Built target example_ros2_interfaces__cpp
+[6.008s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.065s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.074s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.169s] [ 12%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros2_interfaces/msg/detail/robot_pose__functions.c.o[0m
+[6.341s] [ 14%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros2_interfaces/msg/detail/robot_status__functions.c.o[0m
+[6.507s] [ 17%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_ros2_interfaces/srv/detail/move_robot__functions.c.o[0m
+[6.651s] [ 19%] [32m[1mLinking C shared library libexample_ros2_interfaces__rosidl_generator_c.so[0m
+[6.838s] [ 19%] Built target example_ros2_interfaces__rosidl_generator_c
+[6.903s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.959s] [ 23%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros2_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[7.274s] [ 25%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros2_interfaces/msg/detail/robot_pose__type_support.cpp.o[0m
+[7.550s] [ 27%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros2_interfaces/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o[0m
+[7.769s] [ 29%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros2_interfaces/msg/robot_status__type_support.cpp.o[0m
+[8.056s] [ 31%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros2_interfaces/msg/detail/robot_pose__type_support_c.cpp.o[0m
+[8.370s] [ 34%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros2_interfaces/msg/detail/robot_status__type_support.cpp.o[0m
+[8.393s] [ 36%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_ros2_interfaces/srv/move_robot__type_support.cpp.o[0m
+[8.598s] [ 38%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros2_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[9.043s] [ 40%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros2_interfaces/msg/detail/robot_status__type_support_c.cpp.o[0m
+[9.260s] [ 42%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_ros2_interfaces/srv/detail/move_robot__type_support.cpp.o[0m
+[9.296s] [ 44%] [32m[1mLinking CXX shared library libexample_ros2_interfaces__rosidl_typesupport_cpp.so[0m
+[9.500s] [ 44%] Built target example_ros2_interfaces__rosidl_typesupport_cpp
+[9.518s] [ 46%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_ros2_interfaces/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[9.642s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.951s] [ 51%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_ros2_interfaces/srv/detail/move_robot__type_support_c.cpp.o[0m
+[10.255s] [ 53%] [32m[1mLinking CXX shared library libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.435s] [ 55%] [32m[1mLinking CXX shared library libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.455s] [ 55%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[10.497s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.670s] [ 59%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_pose__type_support.c.o[0m
+[10.702s] [ 59%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.728s] [ 61%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[10.807s] [ 63%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/srv/detail/move_robot__type_support.c.o[0m
+[10.903s] [ 65%] [32m[1mLinking CXX shared library libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.906s] [ 68%] [32m[1mLinking C shared library libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.998s] [ 68%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c
+[11.077s] [ 68%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[11.270s] [ 70%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros2_interfaces/srv/move_robot__type_support.cpp.o[0m
+[11.272s] [ 72%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros2_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[11.277s] [ 74%] [32mBuilding CXX object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_ros2_interfaces/msg/robot_status__type_support.cpp.o[0m
+[11.351s] [ 76%] [32m[1mLinking CXX shared library libexample_ros2_interfaces__rosidl_typesupport_c.so[0m
+[11.443s] [ 76%] Built target example_ros2_interfaces__rosidl_typesupport_c
+[11.486s] [ 76%] Built target example_ros2_interfaces
+[11.530s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.473s] [ 78%] Built target example_ros2_interfaces__py
+[12.525s] [ 82%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros2_interfaces/msg/_robot_status_s.c.o[0m
+[12.526s] [ 82%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros2_interfaces/msg/_robot_pose_s.c.o[0m
+[12.545s] [ 85%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_ros2_interfaces/srv/_move_robot_s.c.o[0m
+[12.835s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_generator_py.so[0m
+[12.929s] [ 87%] Built target example_ros2_interfaces__rosidl_generator_py
+[12.968s] [ 89%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.978s] [ 91%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.985s] [ 93%] [32mBuilding C object CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.230s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.246s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.259s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.332s] [100%] Built target example_ros2_interfaces__rosidl_typesupport_c__pyext
+[13.357s] [100%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.366s] [100%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.395s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces -- -j4 -l4
+[13.633s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces
+[13.650s] -- Install configuration: ""
+[13.650s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_ros2_interfaces
+[13.651s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.652s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.652s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.652s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.h
+[13.652s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.h
+[13.653s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.h
+[13.653s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.c
+[13.653s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.h
+[13.654s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.h
+[13.654s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.c
+[13.654s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.h
+[13.655s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.655s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.h
+[13.655s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.h
+[13.656s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.656s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.656s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.h
+[13.656s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.c
+[13.657s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.h
+[13.657s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.h
+[13.657s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.h
+[13.658s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.sh
+[13.658s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.dsv
+[13.659s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_c.so
+[13.660s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_c.so" to ""
+[13.661s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.661s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.661s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.661s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[13.661s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+[13.662s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.662s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.662s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.663s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[13.663s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.664s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.664s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.664s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.664s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.665s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[13.665s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.c
+[13.665s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.c
+[13.665s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h
+[13.666s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.666s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.667s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.667s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[13.667s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.c
+[13.667s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[13.668s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.669s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_c.so
+[13.670s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_c.so" to ""
+[13.670s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.670s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.670s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.670s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__builder.hpp
+[13.671s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.hpp
+[13.671s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__builder.hpp
+[13.671s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__traits.hpp
+[13.671s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__traits.hpp
+[13.672s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.hpp
+[13.672s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.hpp
+[13.672s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.hpp
+[13.673s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.673s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.673s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__builder.hpp
+[13.673s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__traits.hpp
+[13.674s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.hpp
+[13.674s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.hpp
+[13.674s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.675s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.675s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.675s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/dds_fastrtps
+[13.675s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.675s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[13.676s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.676s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.676s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.677s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/dds_fastrtps
+[13.677s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[13.677s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.678s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.678s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[13.679s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[13.679s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[13.679s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.cpp
+[13.679s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[13.679s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.cpp
+[13.680s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[13.680s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[13.680s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[13.680s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[13.681s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.cpp
+[13.681s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.682s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.682s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_cpp.so
+[13.683s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.683s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.sh
+[13.684s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.dsv
+[13.684s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info
+[13.684s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.685s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.685s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[13.685s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[13.686s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces
+[13.686s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.686s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.687s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.687s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg
+[13.688s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status.py
+[13.688s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose_s.c
+[13.688s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/__init__.py
+[13.689s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose.py
+[13.693s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status_s.c
+[13.693s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.693s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_generator_py.so
+[13.694s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/__init__.py
+[13.694s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv
+[13.695s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/__init__.py
+[13.695s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot_s.c
+[13.695s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot.py
+[13.695s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[13.695s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.768s] Listing '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces'...
+[13.768s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/__init__.py'...
+[13.769s] Listing '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg'...
+[13.769s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/__init__.py'...
+[13.769s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose.py'...
+[13.769s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status.py'...
+[13.769s] Listing '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv'...
+[13.769s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/__init__.py'...
+[13.770s] Compiling '/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot.py'...
+[13.778s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.778s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.779s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.780s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.780s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.781s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.781s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_py.so
+[13.782s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_py.so" to ""
+[13.783s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.idl
+[13.783s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.idl
+[13.784s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.idl
+[13.784s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.msg
+[13.784s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.msg
+[13.785s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.srv
+[13.785s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Request.msg
+[13.785s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Response.msg
+[13.786s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/example_ros2_interfaces
+[13.786s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/example_ros2_interfaces
+[13.787s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.sh
+[13.787s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.dsv
+[13.788s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.sh
+[13.788s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.dsv
+[13.788s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.bash
+[13.789s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.sh
+[13.789s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.zsh
+[13.790s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.dsv
+[13.790s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv
+[13.791s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/packages/example_ros2_interfaces
+[13.791s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport.cmake
+[13.792s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.792s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.792s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.793s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.794s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.795s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[13.795s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.795s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cppExport.cmake
+[13.795s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.796s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.796s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.796s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.797s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[13.797s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.798s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport.cmake
+[13.798s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.799s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.799s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.800s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.800s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.800s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.801s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.801s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.802s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig.cmake
+[13.802s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig-version.cmake
+[13.802s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.xml
+[13.808s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces
