@@ -1,0 +1,31 @@
+[0.119s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp
+[0.141s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.141s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.141s]   contain a literal, direct call to the project() command.  Add a line of
+[0.142s]   code such as
+[0.142s] 
+[0.142s]     project(ProjectName)
+[0.142s] 
+[0.142s]   near the top of the file, but after cmake_minimum_required().
+[0.142s] 
+[0.142s]   CMake is pretending there is a "project(Project)" command on the first
+[0.142s]   line.
+[0.142s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.143s] [0m
+[0.153s] [31mCMake Error at CMakeLists.txt:2 (ament_target_dependencies):
+[0.154s]   Unknown CMake command "ament_target_dependencies".
+[0.154s] 
+[0.154s] [0m
+[0.158s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.158s]   No cmake_minimum_required command is present.  A line of code such as
+[0.158s] 
+[0.158s]     cmake_minimum_required(VERSION 3.22)
+[0.158s] 
+[0.159s]   should be added at the top of the file.  The version specified may be lower
+[0.159s]   if you wish to support older CMake versions for this project.  For more
+[0.159s]   information run "cmake --help-policy CMP0000".
+[0.159s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.159s] [0m
+[0.159s] -- Configuring incomplete, errors occurred!
+[0.159s] See also "/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+[0.166s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp

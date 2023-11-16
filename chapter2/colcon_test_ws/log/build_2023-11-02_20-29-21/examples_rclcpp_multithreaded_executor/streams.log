@@ -1,0 +1,71 @@
+[0.139s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapter2/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[0.264s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.408s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.805s] -- Detecting CXX compile features
+[0.806s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.206s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.401s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.504s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.534s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.785s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.791s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.047s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.116s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.228s] -- Looking for pthread.h
+[2.379s] -- Looking for pthread.h - found
+[2.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.529s] -- Found Threads: TRUE  
+[2.935s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.103s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.105s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.105s] -- Configured cppcheck include dirs: 
+[3.106s] -- Configured cppcheck exclude dirs and/or files: 
+[3.106s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.106s] -- Configured cpplint exclude dirs and/or files: 
+[3.107s] -- Added test 'lint_cmake' to check CMake code style
+[3.108s] -- Added test 'uncrustify' to check C / C++ code style
+[3.108s] -- Configured uncrustify additional arguments: 
+[3.109s] -- Added test 'xmllint' to check XML markup files
+[3.111s] -- Configuring done
+[3.136s] -- Generating done
+[3.140s] -- Build files have been written to: /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[3.165s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapter2/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[3.170s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[3.302s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[22.473s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[23.486s] [100%] Built target multithreaded_executor
+[23.881s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[23.961s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[23.985s] -- Install configuration: ""
+[23.985s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[23.998s] -- Set runtime path of "/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[23.999s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[23.999s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[24.000s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[24.000s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[24.001s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[24.001s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[24.001s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[24.002s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[24.002s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[24.003s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[24.003s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[24.004s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[24.004s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[24.005s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[24.005s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[24.010s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_multithreaded_executor

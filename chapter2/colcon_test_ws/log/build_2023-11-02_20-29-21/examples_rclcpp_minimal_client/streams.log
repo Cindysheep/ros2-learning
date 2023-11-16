@@ -1,0 +1,72 @@
+[0.224s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapter2/colcon_test_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client
+[0.684s] -- The C compiler identification is GNU 11.4.0
+[0.866s] -- The CXX compiler identification is GNU 11.4.0
+[0.907s] -- Detecting C compiler ABI info
+[1.298s] -- Detecting C compiler ABI info - done
+[1.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.321s] -- Detecting C compile features
+[1.322s] -- Detecting C compile features - done
+[1.331s] -- Detecting CXX compiler ABI info
+[1.558s] -- Detecting CXX compiler ABI info - done
+[1.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.572s] -- Detecting CXX compile features
+[1.574s] -- Detecting CXX compile features - done
+[1.603s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.606s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.084s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.328s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.355s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.430s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.922s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[5.155s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.162s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.632s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.760s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.026s] -- Looking for pthread.h
+[6.396s] -- Looking for pthread.h - found
+[6.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.013s] -- Found Threads: TRUE  
+[7.745s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.206s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.208s] -- Configured cppcheck include dirs: 
+[8.208s] -- Configured cppcheck exclude dirs and/or files: 
+[8.209s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.209s] -- Configured cpplint exclude dirs and/or files: 
+[8.209s] -- Added test 'lint_cmake' to check CMake code style
+[8.210s] -- Added test 'uncrustify' to check C / C++ code style
+[8.210s] -- Configured uncrustify additional arguments: 
+[8.211s] -- Added test 'xmllint' to check XML markup files
+[8.212s] -- Configuring done
+[8.238s] -- Generating done
+[8.243s] -- Build files have been written to: /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client
+[8.288s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/d2lros2/chapter2/colcon_test_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client
+[8.289s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[8.722s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[22.094s] [100%] [32m[1mLinking CXX executable client_main[0m
+[22.671s] [100%] Built target client_main
+[22.716s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[23.044s] Invoking command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client
+[23.092s] -- Install configuration: ""
+[23.092s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[23.092s] -- Set runtime path of "/home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main" to ""
+[23.093s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[23.093s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[23.094s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[23.094s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[23.094s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[23.095s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[23.095s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[23.096s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[23.096s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[23.116s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[23.117s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[23.117s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[23.118s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[23.118s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[23.118s] -- Installing: /home/ros2/d2lros2/chapter2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[23.128s] Invoked command in '/home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/colcon_test_ws/build/examples_rclcpp_minimal_client

@@ -1,0 +1,25 @@
+[0.114s] Invoking command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp -- -j4 -l4
+[0.229s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[5.995s] [100%] [32m[1mLinking CXX executable node_01[0m
+[6.345s] [100%] Built target node_01
+[6.372s] Invoked command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp -- -j4 -l4
+[6.459s] Invoking command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp
+[6.475s] -- Install configuration: ""
+[6.478s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[6.479s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[6.479s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[6.480s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[6.480s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[6.480s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[6.480s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[6.481s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[6.482s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[6.483s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[6.483s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv
+[6.484s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[6.486s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[6.486s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[6.487s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/share/example_cpp/package.xml
+[6.488s] -- Installing: /home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01
+[6.489s] -- Set runtime path of "/home/ros2/d2lros2/chapter2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""
+[6.495s] Invoked command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp

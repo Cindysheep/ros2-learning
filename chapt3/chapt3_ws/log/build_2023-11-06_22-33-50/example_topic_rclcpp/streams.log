@@ -1,0 +1,28 @@
+[0.144s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[0.267s] [ 50%] Built target topic_publisher_01
+[0.274s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[13.662s] [100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[14.510s] [100%] Built target topic_subscribe_01
+[14.535s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4
+[14.617s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[14.636s] -- Install configuration: ""
+[14.637s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[14.638s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[14.638s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[14.639s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[14.639s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[14.639s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[14.640s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[14.640s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[14.640s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[14.641s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[14.641s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[14.642s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[14.642s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[14.642s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[14.643s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[14.644s] -- Up-to-date: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[14.645s] -- Installing: /home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+[14.654s] -- Set runtime path of "/home/ros2/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""
+[14.660s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp

@@ -1,0 +1,9 @@
+[0.127s] Invoking command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp -- -j4 -l4
+[0.264s] [ 50%] [32m[1mLinking CXX executable node_01[0m
+[0.378s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.378s] (.text+0x1b): undefined reference to `main'
+[0.382s] collect2: error: ld returned 1 exit status
+[0.386s] gmake[2]: *** [CMakeFiles/node_01.dir/build.make:151: node_01] Error 1
+[0.388s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_01.dir/all] Error 2
+[0.388s] gmake: *** [Makefile:146: all] Error 2
+[0.392s] Invoked command in '/home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapter2/chapt2_ws/build/example_cpp -- -j4 -l4

@@ -1,0 +1,92 @@
+[0.150s] Invoking command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4
+[0.301s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.636s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.783s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.050s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.058s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.950s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.124s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.124s] -- Configured cppcheck include dirs: 
+[2.125s] -- Configured cppcheck exclude dirs and/or files: 
+[2.126s] -- Added test 'lint_cmake' to check CMake code style
+[2.128s] -- Added test 'uncrustify' to check C / C++ code style
+[2.128s] -- Configured uncrustify additional arguments: 
+[2.129s] -- Added test 'xmllint' to check XML markup files
+[2.138s] -- Configuring done
+[2.192s] -- Generating done
+[2.199s] -- Build files have been written to: /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[2.266s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[2.269s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[2.354s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[2.372s] [ 75%] Built target topic_publisher_01
+[7.995s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[7.995s]    16 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr command_subscribe_;
+[7.996s]       |                          [01;31m[K^~~~~~~~[m[K
+[7.996s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.996s]    16 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr command_subscribe_;
+[7.996s]       |                                               [01;31m[K^[m[K
+[7.997s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[7.997s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[7.997s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[7.998s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.998s]    16 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K command_subscribe_;
+[7.998s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[7.998s]       |                                                           [32m[K;[m[K
+[8.005s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:16:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscribe_[m[K’ does not name a type
+[8.006s]    16 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kcommand_subscribe_[m[K;
+[8.006s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.012s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[8.012s]    18 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg){
+[8.012s]       |                                 [01;31m[K^~~~~~~~[m[K
+[8.012s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:18:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[8.012s]    18 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg){
+[8.012s]       |                                              [01;31m[K^~[m[K
+[8.012s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:18:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[8.013s]    18 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg){
+[8.013s]       |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[8.013s]       |                                              [32m[K)[m[K
+[8.013s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:18:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.013s]    18 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg){
+[8.013s]       |                                           [01;31m[K^~~[m[K
+[8.013s]       |                                              [32m[K;[m[K
+[8.016s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:18:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[8.016s]    18 |     void command_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg){
+[8.016s]       |                                                [01;31m[K^~~~~~[m[K
+[8.017s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:24:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[8.017s]    24 |     }[01;35m[K;[m[K
+[8.017s]       |      [01;35m[K^[m[K
+[8.017s]       |      [31m[K-[m[K
+[8.035s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicSubscribe01::TopicSubscribe01(std::string)[m[K’:
+[8.035s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscribe_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[8.035s]    10 |         [01;31m[Kcommand_subscribe_[m[K = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&TopicSubscribe01::command_callback, this, std::placeholders::_1));
+[8.035s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.036s]       |         [32m[Kcount_subscribers[m[K
+[8.049s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[8.049s]    10 |         command_subscribe_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("sexy_girl", 10, std::bind(&TopicSubscribe01::command_callback, this, std::placeholders::_1));
+[8.049s]       |                                                        [01;31m[K^~~~~~~~[m[K
+[8.049s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.050s]    10 |         command_subscribe_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("sexy_girl", 10, std::bind(&TopicSubscribe01::command_callback, this, std::placeholders::_1));
+[8.050s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.061s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTopicSubscribe01::create_subscription<<expression error> >(const char [10], int, std::_Bind_helper<false, void (TopicSubscribe01::*)(...), TopicSubscribe01*, const std::_Placeholder<1>&>::type)[m[K’
+[8.061s]    10 |         command_subscribe_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&TopicSubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+[8.061s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.064s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.065s]                  from [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:1[m[K:
+[8.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[8.065s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[8.066s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.066s] [01m[K/home/ros2/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:10:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.066s]    10 |         command_subscribe_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&TopicSubscribe01::command_callback, this, std::placeholders::_1))[m[K;
+[8.066s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.912s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+[8.912s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+[8.912s] gmake: *** [Makefile:146: all] Error 2
+[8.920s] Invoked command in '/home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4
