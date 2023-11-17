@@ -1,0 +1,16 @@
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_parameters_rclcpp
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_parameters_rclcpp
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.sh
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.dsv
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.sh
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.dsv
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.bash
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.sh
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.zsh
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.dsv
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.dsv
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/packages/example_parameters_rclcpp
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig.cmake
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig-version.cmake
+/home/ros2/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.xml
